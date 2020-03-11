@@ -51,6 +51,9 @@ subprojects {
         compile "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
         compile "org.slf4j:slf4j-api:$slf4jVersion"
         compile "org.springframework.cloud:spring-cloud-commons"
+        compile "javax.xml.bind:jaxb-api:2.2.4"
+
+        
 
         testCompile "junit:junit:$junitVersion"
         testCompile "org.mockito:mockito-core:$mockitoVersion"
