@@ -1,5 +1,3 @@
-apply from: "$projectDir/../server.gradle"
-
 dependencies {
     compile "org.springframework.cloud:spring-cloud-commons:2.0.0.RELEASE"
 }
